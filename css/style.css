@@ -1,0 +1,35 @@
+#logo {
+    width: 70px;
+    height: 70px;
+   
+}
+ul{
+    text-align: center;
+    background-color: black;
+    height: 170px;
+}
+ul li{
+    display: inline-block;
+    padding: 50px;
+    color: white;
+    
+}
+#barca{
+    width: 960px;
+    height: 450px;
+    margin-left: 15%;
+}
+#player{
+    height: 375px;
+    width: 300px;
+    display: inline-block;
+}
+#images{
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+#coatch{
+    width: 480px;
+    height: 400px;
+}
