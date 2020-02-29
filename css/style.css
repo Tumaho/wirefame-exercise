@@ -23,13 +23,24 @@ ul li{
     height: 375px;
     width: 300px;
     display: inline-block;
+    padding: 3%;
 }
 #images{
     margin-left: 20%;
     margin-top: 2%;
 }
 
-#coatch{
+/* .coatch{
     width: 480px;
     height: 400px;
+    display: inline-block;
+} */
+#quique{
+    width: 480px;
+    height: 400px;
+    float: left;
+    margin: 0px 0px 15px 20px;
+}
+footer{
+    background-color: black;
 }
