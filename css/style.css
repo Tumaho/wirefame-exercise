@@ -1,46 +1,82 @@
-#logo {
-    width: 70px;
-    height: 70px;
-   
-}
-ul{
-    text-align: center;
-    background-color: black;
-    height: 170px;
-}
-ul li{
-    display: inline-block;
-    padding: 50px;
-    color: white;
-    
-}
-#barca{
-    width: 960px;
-    height: 450px;
-    margin-left: 15%;
-}
-#player{
-    height: 375px;
-    width: 300px;
-    display: inline-block;
-    padding: 3%;
-}
-#images{
-    margin-left: 20%;
-    margin-top: 2%;
+body{
+    width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-/* .coatch{
-    width: 480px;
-    height: 400px;
-    display: inline-block;
-} */
-#quique{
-    width: 480px;
-    height: 400px;
-    float: left;
-    margin: 0px 0px 15px 20px;
+header{
+    background-color: #4d4d4d;
+    height: 100px;
+    margin-bottom: 30px;
 }
-footer{
+
+header img{
+    margin-left: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+nav{
+    display: inline;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+
+nav ul{
+    display: inline;
+    
+}
+
+nav ul li  {
+    display: inline;
+    padding-left: 35px; 
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: gray;
+
+}
+
+
+div{
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+img{
+    padding-right: 25px;
+}
+
+
+#scroll{
+    position: absolute;
+    width: 455px;
+    overflow: scroll;
+    height: 220px;
+    margin-top: 50px;
+}
+
+#call {
     background-color: black;
+    color: #fff;
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px ;
+    position: absolute;
+    margin-top: 350px;
+    border-radius: 15px;
+}
+#call:hover{
+    background-color: #4d4d4d;
+    transition-delay: 350ms;
+}
+
+footer{
+    width: 100%;
+    background-color: #4d4d4d;
+    color: #4d4d4d;
+    padding-bottom: 100px;
+    margin-bottom: 30px;
 }
